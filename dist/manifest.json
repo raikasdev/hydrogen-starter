@@ -1,0 +1,13 @@
+{
+  "app.css": "css/app.css",
+  "app.js": "js/app.js",
+  "editor.css": "css/editor.css",
+  "editor.js": "js/editor.js",
+  "legacy.js": "js/legacy.js",
+  "fonts/inter-variablefont.ttf": "fonts/inter-variablefont.ttf",
+  "fonts/inter-400-italic.ttf": "fonts/inter-400-italic.ttf",
+  "fonts/inter-700.ttf": "fonts/inter-700.ttf",
+  "fonts/inter-600.ttf": "fonts/inter-600.ttf",
+  "fonts/inter-500.ttf": "fonts/inter-500.ttf",
+  "fonts/inter-400.ttf": "fonts/inter-400.ttf"
+}

@@ -4,8 +4,8 @@
  *
  * @Author: Niku Hietanen
  * @Date: 2020-02-20 13:46:50
- * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2022-12-29 19:05:21
+ * @Last Modified by:   Roni Äikäs
+ * @Last Modified time: 2023-06-04 12:41:03
  *
  * @package air-light
  */
@@ -80,7 +80,7 @@ function enqueue_polyfills() {
     return false;
   }
   }());
-  var legacyScript ="' . esc_url( get_theme_file_uri( get_asset_file( 'legacy.js' ) ) ) . '";
+  var legacyScript ="' . esc_url( get_theme_file_uri( get_asset_file( 'dist/js/legacy.js' ) ) ) . '";
   if (!supportsES6) {
     var script = document.createElement("script");
     script.src = legacyScript;

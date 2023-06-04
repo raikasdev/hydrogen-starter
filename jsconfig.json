@@ -1,0 +1,22 @@
+{
+  "extends": "@roots/bud/config/jsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "resources",
+    /**
+     * Resolve aliases
+     */
+    "paths": {
+      "@src/*": ["src/*"],
+    },
+    /**
+     * Type definitions
+     */
+    "types": [
+      "@roots/bud",
+      "@roots/bud-postcss",
+      "@roots/bud-wordpress-theme-json"
+    ]
+  },
+  "include": ["bud.config.js", "resources"],
+  "exclude": ["node_modules", "public"]
+}

@@ -1,0 +1,1221 @@
+yarn run v1.23.0-20220130.1630
+$ /home/roni/Desktop/air-light/node_modules/.bin/bud build --verbose
+[env] › ▶  sourcing .env values Initialized timer...
+[env] › ◼  sourcing .env values Timer run for: 3ms
+[fs] › ▶  Initializing filesystem Initialized timer...
+[fs] › ℹ  Skipping 404.php (unknown extension)
+[fs] › ℹ  Skipping CHANGELOG.md (unknown extension)
+[fs] › ℹ  Skipping LICENSE.md (unknown extension)
+[fs] › ℹ  Skipping README.md (unknown extension)
+[fs] › ℹ  Skipping comments.php (unknown extension)
+[fs] › ℹ  Skipping footer.php (unknown extension)
+[fs] › ℹ  Skipping front-page.php (unknown extension)
+[fs] › ℹ  Skipping functions.php (unknown extension)
+[fs] › ℹ  Skipping header.php (unknown extension)
+[fs] › ℹ  Skipping index.php (unknown extension)
+[fs] › ℹ  Skipping page.php (unknown extension)
+[fs] › ℹ  Skipping phpcs.xml (unknown extension)
+[fs] › ℹ  Skipping readme.txt (unknown extension)
+[fs] › ℹ  Skipping screenshot.png (unknown extension)
+[fs] › ℹ  Skipping search.php (unknown extension)
+[fs] › ℹ  Skipping sidebar.php (unknown extension)
+[fs] › ℹ  Skipping single.php (unknown extension)
+[fs] › ℹ  Skipping style.css (unknown extension)
+[fs] › ℹ  Skipping yarn-error.log (unknown extension)
+[fs] › ℹ  Skipping yarn.lock (lockfile)
+[fs] › ℹ  Skipping .git dir /home/roni/Desktop/air-light/.git
+[fs] › ℹ  Skipping .github dir /home/roni/Desktop/air-light/.github
+[fs] › ℹ  Skipping .swc dir /home/roni/Desktop/air-light/.swc
+[fs] › ℹ  Skipping bin dir /home/roni/Desktop/air-light/bin
+[fs] › ℹ  Skipping dist dir /home/roni/Desktop/air-light/dist
+[fs] › ℹ  Skipping gulp dir /home/roni/Desktop/air-light/gulp
+[fs] › ℹ  Skipping inc dir /home/roni/Desktop/air-light/inc
+[fs] › ℹ  Skipping node_modules dir /home/roni/Desktop/air-light/node_modules
+[fs] › ℹ  Skipping src dir /home/roni/Desktop/air-light/src
+[fs] › ℹ  Skipping template-parts dir /home/roni/Desktop/air-light/template-parts
+[fs] › ▶  loading .eslintrc.js Initialized timer...
+[fs] › ◼  loading .eslintrc.js Timer run for: 12ms
+[fs] › …  removing old module resolutions
+[fs] › ✔  removing old module resolutions
+[fs] › ◼  Initializing filesystem Timer run for: 58ms
+[bootstrap] › ℹ  file .accessibilityrc {
+  name: '.accessibilityrc',
+  type: 'base',
+  size: 28,
+  mode: 33204,
+  sha1: '203698a9d7d5ab0e03a78f227e458fb7ae28e1fd',
+  path: '/home/roni/Desktop/air-light/.accessibilityrc',
+  local: false,
+  bud: false,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: '.accessibilityrc',
+    ext: '',
+    name: '.accessibilityrc'
+  },
+  extension: '',
+  dynamic: false,
+  static: false
+}
+[bootstrap] › ℹ  file .browserslistrc {
+  name: '.browserslistrc',
+  type: 'base',
+  size: 207,
+  mode: 33204,
+  sha1: '9636347da420c0cc871964a1d5424c247b524d9b',
+  path: '/home/roni/Desktop/air-light/.browserslistrc',
+  local: false,
+  bud: false,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: '.browserslistrc',
+    ext: '',
+    name: '.browserslistrc'
+  },
+  extension: '',
+  dynamic: false,
+  static: false
+}
+[bootstrap] › ℹ  file .editorconfig {
+  name: '.editorconfig',
+  type: 'base',
+  size: 281,
+  mode: 33204,
+  sha1: '9689c6228d88df3209d813fe2574e17ffc040970',
+  path: '/home/roni/Desktop/air-light/.editorconfig',
+  local: false,
+  bud: false,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: '.editorconfig',
+    ext: '',
+    name: '.editorconfig'
+  },
+  extension: '',
+  dynamic: false,
+  static: false
+}
+[bootstrap] › ℹ  file .gitignore {
+  name: '.gitignore',
+  type: 'base',
+  size: 208,
+  mode: 33204,
+  sha1: '2c24c8ff43f9e48bff12fed6314433c0a0df879c',
+  path: '/home/roni/Desktop/air-light/.gitignore',
+  local: false,
+  bud: false,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: '.gitignore',
+    ext: '',
+    name: '.gitignore'
+  },
+  extension: '',
+  dynamic: false,
+  static: false
+}
+[bootstrap] › ℹ  file .hintrc {
+  name: '.hintrc',
+  type: 'base',
+  size: 628,
+  mode: 33204,
+  sha1: 'fcaa050edaed007d713555df261d39520e65f270',
+  path: '/home/roni/Desktop/air-light/.hintrc',
+  local: false,
+  bud: false,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: '.hintrc',
+    ext: '',
+    name: '.hintrc'
+  },
+  extension: '',
+  dynamic: false,
+  static: false
+}
+[bootstrap] › ℹ  file .jshintignore {
+  name: '.jshintignore',
+  type: 'base',
+  size: 183,
+  mode: 33204,
+  sha1: '6043b46cd4e5a1883ddbd5a2816966c8f49c1118',
+  path: '/home/roni/Desktop/air-light/.jshintignore',
+  local: false,
+  bud: false,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: '.jshintignore',
+    ext: '',
+    name: '.jshintignore'
+  },
+  extension: '',
+  dynamic: false,
+  static: false
+}
+[bootstrap] › ℹ  file .nvmrc {
+  name: '.nvmrc',
+  type: 'base',
+  size: 8,
+  mode: 33204,
+  sha1: '7e74bc9ee286739310c84d0daa1ae27ffac9b2d2',
+  path: '/home/roni/Desktop/air-light/.nvmrc',
+  local: false,
+  bud: false,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: '.nvmrc',
+    ext: '',
+    name: '.nvmrc'
+  },
+  extension: '',
+  dynamic: false,
+  static: false
+}
+[bootstrap] › ℹ  file .prettierrc {
+  name: '.prettierrc',
+  type: 'base',
+  size: 92,
+  mode: 33204,
+  sha1: '691e5d340bcb5cb14174f89c671127601ed289cb',
+  path: '/home/roni/Desktop/air-light/.prettierrc',
+  local: false,
+  bud: false,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: '.prettierrc',
+    ext: '',
+    name: '.prettierrc'
+  },
+  extension: '',
+  dynamic: false,
+  static: false
+}
+[bootstrap] › ℹ  file .stylelintignore {
+  name: '.stylelintignore',
+  type: 'base',
+  size: 29,
+  mode: 33204,
+  sha1: '482a5a65687458d98df05285a6811079014ee8a2',
+  path: '/home/roni/Desktop/air-light/.stylelintignore',
+  local: false,
+  bud: false,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: '.stylelintignore',
+    ext: '',
+    name: '.stylelintignore'
+  },
+  extension: '',
+  dynamic: false,
+  static: false
+}
+[bootstrap] › ℹ  file .stylelintrc {
+  name: '.stylelintrc',
+  type: 'base',
+  size: 5326,
+  mode: 33204,
+  sha1: '8138c8422b5a58fe763ed0ba94abbbedf8c9a87e',
+  path: '/home/roni/Desktop/air-light/.stylelintrc',
+  local: false,
+  bud: false,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: '.stylelintrc',
+    ext: '',
+    name: '.stylelintrc'
+  },
+  extension: '',
+  dynamic: false,
+  static: false
+}
+[bootstrap] › ℹ  file .swcrc {
+  name: '.swcrc',
+  type: 'base',
+  size: 643,
+  mode: 33204,
+  sha1: '29f919de1deed813c01a8bbe66a14a81c4738bd4',
+  path: '/home/roni/Desktop/air-light/.swcrc',
+  local: false,
+  bud: false,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: '.swcrc',
+    ext: '',
+    name: '.swcrc'
+  },
+  extension: '',
+  dynamic: false,
+  static: false
+}
+[bootstrap] › ℹ  file bud.config.js {
+  name: 'bud.config.js',
+  type: 'base',
+  size: 1717,
+  mode: 33204,
+  sha1: 'd48b5f73e49cc3a00ec0c2e70ed91a59e300a0a1',
+  path: '/home/roni/Desktop/air-light/bud.config.js',
+  local: false,
+  bud: true,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: 'bud.config.js',
+    ext: '.js',
+    name: 'bud.config'
+  },
+  extension: 'js',
+  dynamic: true,
+  static: false,
+  module: [AsyncFunction (anonymous)]
+}
+[bootstrap] › ℹ  file log {
+  name: 'log',
+  type: 'base',
+  size: 817,
+  mode: 33204,
+  sha1: 'e4d07ce8da8cd43550024f921d30d57da59d7345',
+  path: '/home/roni/Desktop/air-light/log',
+  local: false,
+  bud: false,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: 'log',
+    ext: '',
+    name: 'log'
+  },
+  extension: '',
+  dynamic: false,
+  static: false
+}
+[bootstrap] › ℹ  file .eslintrc.js {
+  name: '.eslintrc.js',
+  type: 'base',
+  size: 386,
+  mode: 33204,
+  sha1: 'f65329908b96f2c3d4584cf12a34c68c41f82efe',
+  path: '/home/roni/Desktop/air-light/.eslintrc.js',
+  local: false,
+  bud: false,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: '.eslintrc.js',
+    ext: '.js',
+    name: '.eslintrc'
+  },
+  extension: 'js',
+  dynamic: true,
+  static: false,
+  module: {
+    root: true,
+    ignorePatterns: [
+      '**/js/dev/*.js',
+      '**/js/prod/*.js',
+      '**/node_modules/*.js',
+      '**/gulp/**/*.js',
+      '**/gulp/*.js',
+      'gulpfile.js'
+    ],
+    parser: '@babel/eslint-parser',
+    parserOptions: { requireConfigFile: false },
+    extends: 'eslint-config-airbnb/base',
+    rules: { indent: [Array] },
+    env: { browser: true, jquery: true }
+  }
+}
+[bootstrap] › ℹ  file .scss-lint.yml {
+  name: '.scss-lint.yml',
+  type: 'base',
+  size: 7112,
+  mode: 33204,
+  sha1: 'a5843b3b117ee4a311a31e199d2ffafae4eb727a',
+  path: '/home/roni/Desktop/air-light/.scss-lint.yml',
+  local: false,
+  bud: false,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: '.scss-lint.yml',
+    ext: '.yml',
+    name: '.scss-lint'
+  },
+  extension: 'yml',
+  dynamic: false,
+  static: true,
+  module: {
+    scss_files: '**/*.scss',
+    plugin_directories: [ '.scss-linters' ],
+    plugin_gems: [],
+    severity: 'warning',
+    linters: {
+      BangFormat: [Object],
+      BemDepth: [Object],
+      BorderZero: [Object],
+      ChainedClasses: [Object],
+      ColorKeyword: [Object],
+      ColorVariable: [Object],
+      Comment: [Object],
+      DebugStatement: [Object],
+      DeclarationOrder: [Object],
+      DisableLinterReason: [Object],
+      DuplicateProperty: [Object],
+      ElsePlacement: [Object],
+      EmptyLineBetweenBlocks: [Object],
+      EmptyRule: [Object],
+      ExtendDirective: [Object],
+      FinalNewline: [Object],
+      HexLength: [Object],
+      HexNotation: [Object],
+      HexValidation: [Object],
+      IdSelector: [Object],
+      ImportantRule: [Object],
+      ImportPath: [Object],
+      Indentation: [Object],
+      LeadingZero: [Object],
+      MergeableSelector: [Object],
+      NameFormat: [Object],
+      NestingDepth: [Object],
+      PlaceholderInExtend: [Object],
+      PrivateNamingConvention: [Object],
+      PropertyCount: [Object],
+      PropertySortOrder: [Object],
+      PropertySpelling: [Object],
+      PropertyUnits: [Object],
+      PseudoElement: [Object],
+      QualifyingElement: [Object],
+      SelectorDepth: [Object],
+      SelectorFormat: [Object],
+      Shorthand: [Object],
+      SingleLinePerProperty: [Object],
+      SingleLinePerSelector: [Object],
+      SpaceAfterComma: [Object],
+      SpaceAfterComment: [Object],
+      SpaceAfterPropertyColon: [Object],
+      SpaceAfterPropertyName: [Object],
+      SpaceAfterVariableColon: [Object],
+      SpaceAfterVariableName: [Object],
+      SpaceAroundOperator: [Object],
+      SpaceBeforeBrace: [Object],
+      SpaceBetweenParens: [Object],
+      StringQuotes: [Object],
+      TrailingSemicolon: [Object],
+      TrailingWhitespace: [Object],
+      TrailingZero: [Object],
+      TransitionAll: [Object],
+      UnnecessaryMantissa: [Object],
+      UnnecessaryParentReference: [Object],
+      UrlFormat: [Object],
+      UrlQuotes: [Object],
+      VariableForProperty: [Object],
+      VendorPrefix: [Object],
+      ZeroUnit: [Object],
+      'Compass::*': [Object]
+    }
+  }
+}
+[bootstrap] › ℹ  file .svgo.yml {
+  name: '.svgo.yml',
+  type: 'base',
+  size: 1396,
+  mode: 33204,
+  sha1: '0a65fc069cf80420333e32e2cf456066768b0787',
+  path: '/home/roni/Desktop/air-light/.svgo.yml',
+  local: false,
+  bud: false,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: '.svgo.yml',
+    ext: '.yml',
+    name: '.svgo'
+  },
+  extension: 'yml',
+  dynamic: false,
+  static: true,
+  module: {
+    multipass: true,
+    full: true,
+    plugins: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object]
+    ]
+  }
+}
+[bootstrap] › ℹ  file jsconfig.json {
+  name: 'jsconfig.json',
+  type: 'base',
+  size: 429,
+  mode: 33204,
+  sha1: '10022714569551be6151ef705d0506abcc9f0db8',
+  path: '/home/roni/Desktop/air-light/jsconfig.json',
+  local: false,
+  bud: false,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: 'jsconfig.json',
+    ext: '.json',
+    name: 'jsconfig'
+  },
+  extension: 'json',
+  dynamic: false,
+  static: true,
+  module: {
+    extends: '@roots/bud/config/jsconfig.json',
+    compilerOptions: { baseUrl: 'resources', paths: [Object], types: [Array] },
+    include: [ 'bud.config.js', 'resources' ],
+    exclude: [ 'node_modules', 'public' ]
+  }
+}
+[bootstrap] › ℹ  file package.json {
+  name: 'package.json',
+  type: 'base',
+  size: 2472,
+  mode: 33204,
+  sha1: '0a701e09db66d378e89acf2987d319777af779ff',
+  path: '/home/roni/Desktop/air-light/package.json',
+  local: false,
+  bud: false,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: 'package.json',
+    ext: '.json',
+    name: 'package'
+  },
+  extension: 'json',
+  dynamic: false,
+  static: true,
+  module: {
+    name: 'air-light',
+    version: '9.3.3',
+    description: 'A minimalist WordPress starter theme.',
+    author: 'Digitoimisto Dude Oy (moro@dude.fi)',
+    type: 'module',
+    devDependencies: {
+      '@babel/core': '^7.20.12',
+      '@babel/eslint-parser': '^7.19.1',
+      '@hint/hint-axe': '^4.4.17',
+      '@hint/hint-button-type': '^3.0.19',
+      '@hint/hint-compat-api': '^4.5.3',
+      '@ronilaukkarinen/gulp-stylelint': '^14.1.1',
+      '@ronilaukkarinen/stylelint-a11y': '^1.2.7',
+      '@ronilaukkarinen/stylelint-declaration-strict-value': '^1.9.2',
+      '@ronilaukkarinen/stylelint-value-no-unknown-custom-properties': '^4.0.1',
+      '@roots/bud': '^6.12.3',
+      '@roots/bud-postcss': '^6.12.3',
+      '@roots/bud-sass': '^6.12.3',
+      '@roots/bud-stylelint': '^6.12.3',
+      '@roots/bud-wordpress-manifests': '^6.12.3',
+      '@roots/bud-wordpress-theme-json': '^6.12.3',
+      autoprefixer: '^10.4.13',
+      'babel-eslint': '^10.1.0',
+      'babel-loader': '^9.1.2',
+      'babel-preset-airbnb': '^5.0.0',
+      'browser-sync': '^2.27.11',
+      cssnano: '^5.1.14',
+      'cssnano-preset-advanced': '^5.3.9',
+      eslint: '^8.34.0',
+      'eslint-config-airbnb': '^19.0.4',
+      'eslint-plugin-import': '^2.27.5',
+      'eslint-plugin-jsx-a11y': '^6.7.1',
+      'eslint-plugin-react': '^7.32.2',
+      'eslint-plugin-react-hooks': '^4.6.0',
+      hint: '^7.1.3',
+      'npm-check-updates': '^16.7.4',
+      postcss: '^8.4.21',
+      'postcss-calc': '^8.2.4',
+      'postcss-colormin': '^5.3.0',
+      'postcss-discard-empty': '^5.1.1',
+      'postcss-discard-unused': '^5.1.0',
+      'postcss-merge-longhand': '^5.1.7',
+      'postcss-merge-rules': '^5.1.3',
+      'postcss-minify-font-values': '^5.1.0',
+      'postcss-minify-gradients': '^5.1.1',
+      'postcss-normalize-positions': '^5.1.1',
+      'postcss-normalize-url': '^5.1.0',
+      'postcss-scss': '^4.0.6',
+      'postcss-unique-selectors': '^5.1.1',
+      'postcss-zindex': '^5.1.0',
+      sass: '^1.58.1',
+      stylelint: '^15.1.0',
+      'stylelint-config-recommended': '^10.0.1',
+      'stylelint-config-recommended-scss': '^9.0.1',
+      'stylelint-config-standard': '^30.0.1',
+      'stylelint-config-standard-scss': '^7.0.1',
+      'stylelint-file-max-lines': '^1.0.0',
+      'stylelint-order': '^6.0.2',
+      'stylelint-rem-over-px': '^1.0.0',
+      'stylelint-scss': '^4.4.0',
+      'terser-webpack-plugin': '^5.3.6',
+      'vinyl-named': '^1.1.0'
+    },
+    dependencies: {
+      'airbnb-browser-shims': '^3.3.0',
+      moveto: '^1.8.2',
+      'reframe.js': '^4.0.0'
+    }
+  }
+}
+[bootstrap] › ℹ  file theme.json {
+  name: 'theme.json',
+  type: 'base',
+  size: 742,
+  mode: 33204,
+  sha1: '1897dabfe183b387e6bfb5453544c745db118a5f',
+  path: '/home/roni/Desktop/air-light/theme.json',
+  local: false,
+  bud: false,
+  file: true,
+  dir: false,
+  symlink: false,
+  parsed: {
+    root: '/',
+    dir: '/home/roni/Desktop/air-light',
+    base: 'theme.json',
+    ext: '.json',
+    name: 'theme'
+  },
+  extension: 'json',
+  dynamic: false,
+  static: true,
+  module: {
+    __generated__: '⚠️ This file is generated. Do not edit.',
+    '$schema': 'https://schemas.wp.org/trunk/theme.json',
+    version: 2,
+    settings: {
+      color: [Object],
+      custom: [Object],
+      spacing: [Object],
+      typography: [Object]
+    }
+  }
+}
+[bootstrap] › 🏗️ building air-light
+[bootstrap] › 📂 basedir /home/roni/Desktop/air-light
+[bootstrap] › 😎 version 6.12.3
+[air-light] › ▶  initialize Initialized timer...
+[air-light] › bud.env ← @roots/bud/services/env
+[air-light] › bud.project ← @roots/bud/services/project
+[air-light] › bud.consoleBuffer ← @roots/bud-framework/services/console
+[air-light] › bud.extensions ← @roots/bud-extensions
+[air-light] › bud.hooks ← @roots/bud-hooks
+[air-light] › bud.cache ← @roots/bud-cache
+[air-light] › bud.compiler ← @roots/bud-compiler
+[air-light] › bud.dashboard ← @roots/bud-dashboard
+[air-light] › bud.build ← @roots/bud-build
+[air-light] › bud.notifier ← @roots/bud-framework/services/notifier
+[air-light] › bud.api ← @roots/bud-api
+[air-light] [hooks] › ℹ  registered event callback for bootstrap (1/1)
+[air-light] [hooks] › ℹ  env.bootstrap bound to bootstrap
+[air-light] [hooks] › ℹ  registered event callback for bootstrap (1/1)
+[air-light] [hooks] › ℹ  api.bootstrap bound to bootstrap
+[air-light] [hooks] › ℹ  registered event callback for register (1/1)
+[air-light] [hooks] › ℹ  consoleBuffer.register bound to register
+[air-light] [hooks] › ℹ  registered event callback for register (1/1)
+[air-light] [hooks] › ℹ  extensions.register bound to register
+[air-light] [hooks] › ℹ  registered event callback for register (1/1)
+[air-light] [hooks] › ℹ  build.register bound to register
+[air-light] [hooks] › ℹ  registered event callback for boot (1/1)
+[air-light] [hooks] › ℹ  notifier.boot bound to boot
+[air-light] [hooks] › ℹ  registered event callback for booted (1/1)
+[air-light] [hooks] › ℹ  extensions.booted bound to booted
+[air-light] [hooks] › ℹ  registered event callback for booted (1/1)
+[air-light] [hooks] › ℹ  cache.booted bound to booted
+[air-light] [hooks] › ℹ  registered event callback for config.after (1/1)
+[air-light] [hooks] › ℹ  extensions.configAfter bound to config.after
+[air-light] [hooks] › ℹ  registered event callback for build.before (1/1)
+[air-light] [hooks] › ℹ  extensions.buildBefore bound to build.before
+[air-light] [hooks] › ℹ  registered event callback for build.after (1/1)
+[air-light] [hooks] › ℹ  project.buildAfter bound to build.after
+[air-light] [hooks] › ℹ  registered event callback for build.after (1/1)
+[air-light] [hooks] › ℹ  extensions.buildAfter bound to build.after
+[air-light] [hooks] › ▶  bootstrap Initialized timer...
+[air-light] [hooks] › …  executing callback 1/2
+[air-light] [hooks] › …  executing callback 2/2
+[air-light] [hooks] › ✔  executing callback 1/2
+[air-light] [hooks] › ✔  executing callback 2/2
+[air-light] [hooks] › ◼  bootstrap Timer run for: 3ms
+[air-light] [hooks] › ▶  register  Initialized timer...
+[air-light] [hooks] › …  executing callback 1/3
+[air-light] [hooks] › …  executing callback 2/3
+[air-light] [hooks] › …  executing callback 3/3
+[module] › ℹ  resolving @roots/bud-support/css-loader from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-build/lib/handlers/loaders/loaders.js
+[module] › ℹ  resolving @roots/bud-support/csv-loader from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-build/lib/handlers/loaders/loaders.js
+[module] › ℹ  resolving @roots/bud-support/file-loader from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-build/lib/handlers/loaders/loaders.js
+[module] › ℹ  resolving @roots/bud-support/html-loader from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-build/lib/handlers/loaders/loaders.js
+[module] › ℹ  resolving @roots/bud-support/remark-loader from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-build/lib/handlers/loaders/loaders.js
+[module] › ℹ  resolving @roots/bud-support/style-loader from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-build/lib/handlers/loaders/loaders.js
+[module] › ℹ  resolving @roots/bud-support/xml-loader from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-build/lib/handlers/loaders/loaders.js
+[module] › ℹ  resolving @roots/bud-support/yml-loader from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-build/lib/handlers/loaders/loaders.js
+[air-light] [hooks] › ✔  executing callback 1/3
+[air-light] [hooks] › ✔  executing callback 2/3
+[module] › ℹ  [cache miss] resolved @roots/bud-support/css-loader to node_modules/@roots/bud-support/lib/css-loader/index.cjs
+[module] › ℹ  [cache miss] resolved @roots/bud-support/csv-loader to node_modules/@roots/bud-support/lib/csv-loader/index.cjs
+[module] › ℹ  [cache miss] resolved @roots/bud-support/file-loader to node_modules/@roots/bud-support/lib/file-loader/index.cjs
+[module] › ℹ  [cache miss] resolved @roots/bud-support/html-loader to node_modules/@roots/bud-support/lib/html-loader/index.cjs
+[air-light] [build] › ℹ  set loader Loader {
+  _app: [Function (anonymous)],
+  src: '/home/roni/Desktop/air-light/node_modules/mini-css-extract-plugin/dist/loader.js'
+}
+[module] › ℹ  [cache miss] resolved @roots/bud-support/remark-loader to node_modules/@roots/bud-support/lib/remark-loader/index.cjs
+[module] › ℹ  [cache miss] resolved @roots/bud-support/style-loader to node_modules/@roots/bud-support/lib/style-loader/index.cjs
+[module] › ℹ  [cache miss] resolved @roots/bud-support/xml-loader to node_modules/@roots/bud-support/lib/xml-loader/index.cjs
+[module] › ℹ  [cache miss] resolved @roots/bud-support/yml-loader to node_modules/@roots/bud-support/lib/yml-loader/index.cjs
+[air-light] [build] › ℹ  set item Item {
+  _app: [Function (anonymous)],
+  ident: 'css',
+  loader: 'css',
+  options: [Function (anonymous)]
+}
+[air-light] [build] › ℹ  set item Item {
+  _app: [Function (anonymous)],
+  ident: 'cssModule',
+  loader: 'css',
+  options: [Function (anonymous)]
+}
+[air-light] [build] › ℹ  set item Item { _app: [Function (anonymous)], ident: 'csv', loader: 'csv' }
+[air-light] [build] › ℹ  set item Item { _app: [Function (anonymous)], ident: 'file', loader: 'file' }
+[air-light] [build] › ℹ  set item Item { _app: [Function (anonymous)], ident: 'html', loader: 'html' }
+[air-light] [build] › ℹ  set item Item { _app: [Function (anonymous)], ident: 'md', loader: 'md' }
+[air-light] [build] › ℹ  set item Item {
+  _app: [Function (anonymous)],
+  ident: 'minicss',
+  loader: 'minicss',
+  options: [Function (anonymous)]
+}
+[air-light] [build] › ℹ  set item Item { _app: [Function (anonymous)], ident: 'raw', loader: 'raw' }
+[air-light] [build] › ℹ  set item Item { _app: [Function (anonymous)], ident: 'style', loader: 'style' }
+[air-light] [build] › ℹ  set item Item { _app: [Function (anonymous)], ident: 'xml', loader: 'xml' }
+[air-light] [build] › ℹ  set item Item { _app: [Function (anonymous)], ident: 'yml', loader: 'yml' }
+[air-light] [build] › ℹ  set loader Loader {
+  _app: [Function (anonymous)],
+  src: '/home/roni/Desktop/air-light/node_modules/@roots/bud-support/lib/css-loader/index.cjs'
+}
+[air-light] [build] › ℹ  set loader Loader {
+  _app: [Function (anonymous)],
+  src: '/home/roni/Desktop/air-light/node_modules/@roots/bud-support/lib/csv-loader/index.cjs'
+}
+[air-light] [build] › ℹ  set loader Loader {
+  _app: [Function (anonymous)],
+  src: '/home/roni/Desktop/air-light/node_modules/@roots/bud-support/lib/file-loader/index.cjs'
+}
+[air-light] [build] › ℹ  set loader Loader {
+  _app: [Function (anonymous)],
+  src: '/home/roni/Desktop/air-light/node_modules/@roots/bud-support/lib/html-loader/index.cjs'
+}
+[air-light] [build] › ℹ  set loader Loader {
+  _app: [Function (anonymous)],
+  src: '/home/roni/Desktop/air-light/node_modules/@roots/bud-support/lib/remark-loader/index.cjs'
+}
+[air-light] [build] › ℹ  set loader Loader {
+  _app: [Function (anonymous)],
+  src: '/home/roni/Desktop/air-light/node_modules/@roots/bud-support/lib/style-loader/index.cjs'
+}
+[air-light] [build] › ℹ  set loader Loader {
+  _app: [Function (anonymous)],
+  src: '/home/roni/Desktop/air-light/node_modules/@roots/bud-support/lib/xml-loader/index.cjs'
+}
+[air-light] [build] › ℹ  set loader Loader {
+  _app: [Function (anonymous)],
+  src: '/home/roni/Desktop/air-light/node_modules/@roots/bud-support/lib/yml-loader/index.cjs'
+}
+[air-light] [hooks] › ✔  executing callback 3/3
+[air-light] [hooks] › ◼  register  Timer run for: 26ms
+[air-light] [hooks] › ▶  boot      Initialized timer...
+[air-light] [hooks] › …  executing callback 1/1
+[air-light] [hooks] › ✔  executing callback 1/1
+[air-light] [hooks] › ◼  boot      Timer run for: 1ms
+[air-light] [hooks] › ▶  booted    Initialized timer...
+[air-light] [hooks] › …  executing callback 1/2
+[air-light] [extensions] › ℹ  importing @roots/bud-entrypoints
+[module] › ℹ  resolving @roots/bud-entrypoints from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [extensions] › ℹ  importing @roots/bud-terser
+[module] › ℹ  resolving @roots/bud-terser from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [extensions] › ℹ  importing @roots/bud-extensions/cdn
+[module] › ℹ  resolving @roots/bud-extensions/cdn from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [extensions] › ℹ  importing @roots/bud-extensions/esm
+[module] › ℹ  resolving @roots/bud-extensions/esm from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [extensions] › ℹ  importing @roots/bud-extensions/fix-style-only-entrypoints
+[module] › ℹ  resolving @roots/bud-extensions/fix-style-only-entrypoints from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [extensions] › ℹ  importing @roots/bud-extensions/clean-webpack-plugin
+[module] › ℹ  resolving @roots/bud-extensions/clean-webpack-plugin from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [extensions] › ℹ  importing @roots/bud-extensions/copy-webpack-plugin
+[module] › ℹ  resolving @roots/bud-extensions/copy-webpack-plugin from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [extensions] › ℹ  importing @roots/bud-extensions/html-webpack-plugin
+[module] › ℹ  resolving @roots/bud-extensions/html-webpack-plugin from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [extensions] › ℹ  importing @roots/bud-extensions/interpolate-html-webpack-plugin
+[module] › ℹ  resolving @roots/bud-extensions/interpolate-html-webpack-plugin from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [extensions] › ℹ  importing @roots/bud-extensions/mini-css-extract-plugin
+[module] › ℹ  resolving @roots/bud-extensions/mini-css-extract-plugin from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [extensions] › ℹ  importing @roots/bud-extensions/webpack-define-plugin
+[module] › ℹ  resolving @roots/bud-extensions/webpack-define-plugin from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [extensions] › ℹ  importing @roots/bud-extensions/webpack-hot-module-replacement-plugin
+[module] › ℹ  resolving @roots/bud-extensions/webpack-hot-module-replacement-plugin from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [extensions] › ℹ  importing @roots/bud-extensions/webpack-manifest-plugin
+[module] › ℹ  resolving @roots/bud-extensions/webpack-manifest-plugin from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [extensions] › ℹ  importing @roots/bud-extensions/webpack-provide-plugin
+[module] › ℹ  resolving @roots/bud-extensions/webpack-provide-plugin from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [hooks] › …  executing callback 2/2
+[module] › ℹ  [cache miss] resolved @roots/bud-entrypoints to node_modules/@roots/bud-entrypoints/lib/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-terser to node_modules/@roots/bud-terser/lib/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-extensions/cdn to node_modules/@roots/bud-extensions/lib/extensions/cdn/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-extensions/esm to node_modules/@roots/bud-extensions/lib/extensions/esm/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-extensions/fix-style-only-entrypoints to node_modules/@roots/bud-extensions/lib/extensions/fix-style-only-entrypoints/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-extensions/clean-webpack-plugin to node_modules/@roots/bud-extensions/lib/extensions/clean-webpack-plugin/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-extensions/copy-webpack-plugin to node_modules/@roots/bud-extensions/lib/extensions/copy-webpack-plugin/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-extensions/html-webpack-plugin to node_modules/@roots/bud-extensions/lib/extensions/html-webpack-plugin/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-extensions/interpolate-html-webpack-plugin to node_modules/@roots/bud-extensions/lib/extensions/interpolate-html-webpack-plugin/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-extensions/mini-css-extract-plugin to node_modules/@roots/bud-extensions/lib/extensions/mini-css-extract-plugin/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-extensions/webpack-define-plugin to node_modules/@roots/bud-extensions/lib/extensions/webpack-define-plugin/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-extensions/webpack-hot-module-replacement-plugin to node_modules/@roots/bud-extensions/lib/extensions/webpack-hot-module-replacement-plugin/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-extensions/webpack-manifest-plugin to node_modules/@roots/bud-extensions/lib/extensions/webpack-manifest-plugin/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-extensions/webpack-provide-plugin to node_modules/@roots/bud-extensions/lib/extensions/webpack-provide-plugin/index.js
+[air-light] [extensions] › ✔  set @roots/bud-cache/invalidate-cache
+[air-light] [hooks] › ℹ  registered event callback for compiler.close (1/1)
+[air-light] [@roots/bud-cache/invalidate-cache] › ✔  registered
+[air-light] [cache] › ✔  cache initialized
+[air-light] [hooks] › ✔  executing callback 2/2
+[module] › ℹ  imported @roots/bud-extensions/cdn
+[air-light] [extensions] › ✔  set @roots/bud-extensions/cdn
+[module] › ℹ  imported @roots/bud-extensions/esm
+[air-light] [extensions] › ✔  set @roots/bud-extensions/esm
+[module] › ℹ  imported @roots/bud-extensions/html-webpack-plugin
+[air-light] [extensions] › ✔  set @roots/bud-extensions/html-webpack-plugin
+[module] › ℹ  imported @roots/bud-extensions/interpolate-html-webpack-plugin
+[air-light] [extensions] › ✔  set @roots/bud-extensions/interpolate-html-webpack-plugin
+[module] › ℹ  imported @roots/bud-extensions/mini-css-extract-plugin
+[air-light] [extensions] › ✔  set @roots/bud-extensions/mini-css-extract-plugin
+[module] › ℹ  imported @roots/bud-extensions/webpack-define-plugin
+[air-light] [extensions] › ✔  set @roots/bud-extensions/webpack-define-plugin
+[module] › ℹ  imported @roots/bud-extensions/webpack-hot-module-replacement-plugin
+[air-light] [extensions] › ✔  set @roots/bud-extensions/webpack-hot-module-replacement-plugin
+[module] › ℹ  imported @roots/bud-extensions/webpack-provide-plugin
+[air-light] [extensions] › ✔  set @roots/bud-extensions/webpack-provide-plugin
+[module] › ℹ  imported @roots/bud-extensions/fix-style-only-entrypoints
+[air-light] [extensions] › ✔  set @roots/bud-extensions/fix-style-only-entrypoints
+[module] › ℹ  imported @roots/bud-extensions/clean-webpack-plugin
+[air-light] [extensions] › ✔  set @roots/bud-extensions/clean-webpack-plugin
+[module] › ℹ  imported @roots/bud-extensions/copy-webpack-plugin
+[air-light] [extensions] › ✔  set @roots/bud-extensions/copy-webpack-plugin
+[module] › ℹ  imported @roots/bud-extensions/webpack-manifest-plugin
+[air-light] [extensions] › ✔  set @roots/bud-extensions/webpack-manifest-plugin
+[module] › ℹ  imported @roots/bud-entrypoints (optional)
+[air-light] [extensions] › ✔  set @roots/bud-entrypoints
+[module] › ℹ  imported @roots/bud-terser
+[air-light] [extensions] › ℹ  importing @roots/bud-terser/css-minimizer
+[module] › ℹ  resolving @roots/bud-terser/css-minimizer from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-terser/css-minimizer to node_modules/@roots/bud-terser/lib/css-minimizer/index.js
+[module] › ℹ  imported @roots/bud-terser/css-minimizer
+[air-light] [extensions] › ✔  set @roots/bud-terser/css-minimizer
+[air-light] [extensions] › ✔  set @roots/bud-terser
+[air-light] [extensions] › ℹ  importing @roots/bud-postcss
+[module] › ℹ  resolving @roots/bud-postcss from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [extensions] › ℹ  importing @roots/bud-sass
+[module] › ℹ  resolving @roots/bud-sass from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [extensions] › ℹ  importing @roots/bud-stylelint
+[module] › ℹ  resolving @roots/bud-stylelint from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [extensions] › ℹ  importing @roots/bud-wordpress-manifests
+[module] › ℹ  resolving @roots/bud-wordpress-manifests from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [extensions] › ℹ  importing @roots/bud-wordpress-theme-json
+[module] › ℹ  resolving @roots/bud-wordpress-theme-json from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-postcss to node_modules/@roots/bud-postcss/lib/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-sass to node_modules/@roots/bud-sass/lib/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-stylelint to node_modules/@roots/bud-stylelint/lib/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-wordpress-manifests to node_modules/@roots/bud-wordpress-manifests/lib/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-wordpress-theme-json to node_modules/@roots/bud-wordpress-theme-json/lib/index.js
+[module] › ℹ  imported @roots/bud-stylelint
+[air-light] [extensions] › ✔  set @roots/bud-stylelint
+[module] › ℹ  imported @roots/bud-postcss (optional)
+[air-light] [extensions] › ✔  set @roots/bud-postcss
+[module] › ℹ  imported @roots/bud-sass
+[air-light] [extensions] › ℹ  importing @roots/bud-sass/resolve-url
+[module] › ℹ  resolving @roots/bud-sass/resolve-url from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-sass/resolve-url to node_modules/@roots/bud-sass/lib/resolve-url/index.js
+[module] › ℹ  imported @roots/bud-wordpress-manifests
+[air-light] [extensions] › ℹ  importing @roots/bud-wordpress-dependencies
+[module] › ℹ  resolving @roots/bud-wordpress-dependencies from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[air-light] [extensions] › ℹ  importing @roots/bud-wordpress-externals
+[module] › ℹ  resolving @roots/bud-wordpress-externals from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-extensions/lib/service/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-wordpress-dependencies to node_modules/@roots/bud-wordpress-dependencies/lib/index.js
+[module] › ℹ  [cache miss] resolved @roots/bud-wordpress-externals to node_modules/@roots/bud-wordpress-externals/lib/index.js
+[module] › ℹ  imported @roots/bud-wordpress-theme-json
+[air-light] [extensions] › ✔  set @roots/bud-wordpress-theme-json
+[module] › ℹ  imported @roots/bud-sass/resolve-url
+[air-light] [extensions] › ✔  set @roots/bud-sass/resolve-url
+[air-light] [extensions] › ✔  set @roots/bud-sass
+[module] › ℹ  imported @roots/bud-wordpress-dependencies
+[air-light] [extensions] › ✔  set @roots/bud-wordpress-dependencies
+[module] › ℹ  imported @roots/bud-wordpress-externals
+[air-light] [extensions] › ✔  set @roots/bud-wordpress-externals
+[air-light] [extensions] › ✔  set @roots/bud-wordpress-manifests
+[air-light] [@roots/bud-extensions/webpack-define-plugin] › ✔  registered
+[module] › ℹ  resolving postcss-import from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-postcss/lib/extension.js
+[module] › ℹ  [cache miss] resolved postcss-import to node_modules/@roots/bud-postcss/node_modules/postcss-import/index.js
+[module] › ℹ  resolving postcss-nested from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-postcss/lib/extension.js
+[module] › ℹ  [cache miss] resolved postcss-nested to node_modules/@roots/bud-postcss/node_modules/postcss-nested/index.js
+[module] › ℹ  resolving postcss-preset-env from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-postcss/lib/extension.js
+[module] › ℹ  [cache miss] resolved postcss-preset-env to node_modules/@roots/bud-postcss/node_modules/postcss-preset-env/dist/index.mjs
+[module] › ℹ  resolving postcss-loader from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-postcss/lib/extension.js
+[module] › ℹ  [cache miss] resolved postcss-loader to node_modules/@roots/bud-postcss/node_modules/postcss-loader/dist/cjs.js
+[air-light] [build] › ℹ  set loader Loader {
+  _app: [Function (anonymous)],
+  src: '/home/roni/Desktop/air-light/node_modules/@roots/bud-postcss/node_modules/postcss-loader/dist/cjs.js'
+}
+[air-light] [build] › ℹ  set item Item {
+  _app: [Function (anonymous)],
+  loader: 'postcss',
+  ident: 'postcss',
+  options: [Function: options]
+}
+[air-light] [@roots/bud-postcss] › ✔  registered
+[module] › ℹ  resolving resolve-url-loader from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-sass/lib/resolve-url/extension.js
+[module] › ℹ  [cache miss] resolved resolve-url-loader to node_modules/resolve-url-loader/index.js
+[air-light] [build] › ℹ  set loader Loader {
+  _app: [Function (anonymous)],
+  src: '/home/roni/Desktop/air-light/node_modules/resolve-url-loader/index.js'
+}
+[air-light] [build] › ℹ  set item Item {
+  _app: [Function (anonymous)],
+  loader: 'resolveUrl',
+  ident: 'resolveUrl',
+  options: [Function: options]
+}
+[air-light] [@roots/bud-sass/resolve-url] › ✔  registered
+[module] › ℹ  resolving sass from undefined
+[module] › ℹ  [cache miss] resolved sass to node_modules/sass/sass.default.js
+[module] › ℹ  imported sass
+[air-light] [@roots/bud-sass] › ✔  imported sass
+[module] › ℹ  resolving sass-loader from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-sass/lib/extension.js
+[module] › ℹ  [cache miss] resolved sass-loader to node_modules/sass-loader/dist/cjs.js
+[air-light] [build] › ℹ  set loader Loader {
+  _app: [Function (anonymous)],
+  src: '/home/roni/Desktop/air-light/node_modules/sass-loader/dist/cjs.js'
+}
+[air-light] [build] › ℹ  set item Item {
+  _app: [Function (anonymous)],
+  ident: 'sass',
+  loader: 'sass-loader',
+  options: [Function: options]
+}
+[air-light] [@roots/bud-sass] › ✔  registered
+[air-light] [@roots/bud-sass] › ✔  booted
+[air-light] [hooks] › ✔  executing callback 1/2
+[air-light] [hooks] › ◼  booted    Timer run for: 490ms
+[air-light] [hooks] › ℹ  registered event callback for compiler.close (1/1)
+[air-light] [hooks] › ℹ  registered event callback for build.before (1/1)
+[air-light] › processing base configuration bud.config.js
+[air-light] › processing as dynamic configuration: bud.config.js
+[fs] › ▶  loading bud.config.js Initialized timer...
+[fs] › ◼  loading bud.config.js Timer run for: 3ms
+[module] › ℹ  resolving postcss-calc from undefined
+[module] › ℹ  resolving postcss-colormin from undefined
+[module] › ℹ  resolving postcss-discard-empty from undefined
+[module] › ℹ  resolving postcss-discard-unused from undefined
+[module] › ℹ  resolving postcss-merge-longhand from undefined
+[module] › ℹ  resolving postcss-merge-rules from undefined
+[module] › ℹ  resolving postcss-minify-font-values from undefined
+[module] › ℹ  resolving postcss-minify-gradients from undefined
+[module] › ℹ  resolving postcss-normalize-positions from undefined
+[module] › ℹ  resolving postcss-normalize-url from undefined
+[module] › ℹ  resolving postcss-unique-selectors from undefined
+[module] › ℹ  resolving postcss-zindex from undefined
+[module] › ℹ  [cache miss] resolved postcss-calc to node_modules/postcss-calc/src/index.js
+[module] › ℹ  [cache miss] resolved postcss-colormin to node_modules/postcss-colormin/src/index.js
+[module] › ℹ  [cache miss] resolved postcss-discard-empty to node_modules/postcss-discard-empty/src/index.js
+[module] › ℹ  [cache miss] resolved postcss-discard-unused to node_modules/postcss-discard-unused/src/index.js
+[module] › ℹ  [cache miss] resolved postcss-merge-longhand to node_modules/postcss-merge-longhand/src/index.js
+[module] › ℹ  [cache miss] resolved postcss-merge-rules to node_modules/postcss-merge-rules/src/index.js
+[module] › ℹ  [cache miss] resolved postcss-minify-font-values to node_modules/postcss-minify-font-values/src/index.js
+[module] › ℹ  [cache miss] resolved postcss-minify-gradients to node_modules/postcss-minify-gradients/src/index.js
+[module] › ℹ  [cache miss] resolved postcss-normalize-positions to node_modules/postcss-normalize-positions/src/index.js
+[module] › ℹ  [cache miss] resolved postcss-normalize-url to node_modules/postcss-normalize-url/src/index.js
+[module] › ℹ  [cache miss] resolved postcss-unique-selectors to node_modules/postcss-unique-selectors/src/index.js
+[module] › ℹ  [cache miss] resolved postcss-zindex to node_modules/postcss-zindex/src/index.js
+[air-light] [api] › ℹ  bud.api.call: entry app [ '@src/scripts/app', '@src/styles/global.scss' ]
+[air-light] [api] › ℹ  bud.api.call: entry editor [ '@src/scripts/editor', '@src/styles/editor.scss' ]
+[air-light] [api] › ℹ  bud.api.call: entry legacy [ '@src/scripts/legacy' ]
+[air-light] [api] › ℹ  bud.api.call: assets [ '@src/fonts', '@src/svg' ]
+[air-light] [api] › ✔  bud.copy: 2 asset patterns added
+[air-light] [api] › ℹ  bud.api.call: minimize true
+[air-light] › ✔  minimize true
+[air-light] [api] › ℹ  bud.api.call: setUrl http://localhost:3000
+[air-light] [api] › ℹ  bud.api.call: setProxyUrl http://example.test
+[air-light] [api] › ℹ  bud.api.call: watch [ '@src' ]
+[air-light] [hooks] › ▶  config.after Initialized timer...
+[air-light] [hooks] › …  executing callback 1/1
+[air-light] [api] › ℹ  bud.api.call: serve http://localhost:3000
+[air-light] [api] › ℹ  bud.api.call: proxy http://example.test
+[air-light] [hooks] › ✔  executing callback 1/1
+[air-light] [hooks] › ◼  config.after Timer run for: 6ms
+[module] › ℹ  resolving webpack from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-compiler/lib/compiler.service.js
+[module] › ℹ  [cache miss] resolved webpack to node_modules/webpack/lib/index.js
+[module] › ℹ  resolving /home/roni/Desktop/air-light/node_modules/webpack/lib/index.js from file:///home/roni/Desktop/air-light/node_modules/@roots/bud-compiler/lib/compiler.service.js
+[module] › ℹ  [cache miss] resolved /home/roni/Desktop/air-light/node_modules/webpack/lib/index.js to node_modules/webpack/lib/index.js
+[module] › ℹ  imported /home/roni/Desktop/air-light/node_modules/webpack/lib/index.js
+[air-light] [compiler] › imported webpack 5.82.0
+[air-light] [build] › bud.build.make called
+[air-light] [hooks] › ▶  build.before Initialized timer...
+[air-light] [hooks] › …  executing callback 1/2
+[air-light] [hooks] › …  executing callback 2/2
+[air-light] [hooks] › ✔  executing callback 2/2
+[air-light] [@roots/bud-terser/css-minimizer] › ℹ  buildBefore: @roots/bud-terser/css-minimizer
+[air-light] [@roots/bud-terser] › ℹ  buildBefore: @roots/bud-terser
+[air-light] [hooks] › ✔  executing callback 1/2
+[air-light] [hooks] › ◼  build.before Timer run for: 42ms
+[air-light] [@roots/bud-postcss] › ℹ  postcss syntax postcss-scss
+[air-light] [@roots/bud-postcss] › ℹ  postcss parser undefined
+[air-light] [@roots/bud-postcss] › ℹ  postcss plugins [
+  '/home/roni/Desktop/air-light/node_modules/@roots/bud-postcss/node_modules/postcss-import/index.js',
+  '/home/roni/Desktop/air-light/node_modules/@roots/bud-postcss/node_modules/postcss-nested/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-calc/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-colormin/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-discard-empty/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-discard-unused/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-merge-longhand/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-merge-rules/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-minify-font-values/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-minify-gradients/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-normalize-positions/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-normalize-url/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-unique-selectors/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-zindex/src/index.js',
+  [
+    '/home/roni/Desktop/air-light/node_modules/@roots/bud-postcss/node_modules/postcss-preset-env/dist/index.cjs',
+    { stage: 1, features: [Object] }
+  ]
+]
+[air-light] [@roots/bud-postcss] › ℹ  postcss syntax postcss-scss
+[air-light] [@roots/bud-postcss] › ℹ  postcss parser undefined
+[air-light] [@roots/bud-postcss] › ℹ  postcss plugins [
+  '/home/roni/Desktop/air-light/node_modules/@roots/bud-postcss/node_modules/postcss-import/index.js',
+  '/home/roni/Desktop/air-light/node_modules/@roots/bud-postcss/node_modules/postcss-nested/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-calc/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-colormin/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-discard-empty/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-discard-unused/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-merge-longhand/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-merge-rules/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-minify-font-values/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-minify-gradients/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-normalize-positions/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-normalize-url/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-unique-selectors/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-zindex/src/index.js',
+  [
+    '/home/roni/Desktop/air-light/node_modules/@roots/bud-postcss/node_modules/postcss-preset-env/dist/index.cjs',
+    { stage: 1, features: [Object] }
+  ]
+]
+[air-light] [@roots/bud-postcss] › ℹ  postcss syntax postcss-scss
+[air-light] [@roots/bud-postcss] › ℹ  postcss parser undefined
+[air-light] [@roots/bud-postcss] › ℹ  postcss plugins [
+  '/home/roni/Desktop/air-light/node_modules/@roots/bud-postcss/node_modules/postcss-import/index.js',
+  '/home/roni/Desktop/air-light/node_modules/@roots/bud-postcss/node_modules/postcss-nested/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-calc/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-colormin/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-discard-empty/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-discard-unused/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-merge-longhand/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-merge-rules/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-minify-font-values/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-minify-gradients/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-normalize-positions/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-normalize-url/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-unique-selectors/src/index.js',
+  '/home/roni/Desktop/air-light/node_modules/postcss-zindex/src/index.js',
+  [
+    '/home/roni/Desktop/air-light/node_modules/@roots/bud-postcss/node_modules/postcss-preset-env/dist/index.cjs',
+    { stage: 1, features: [Object] }
+  ]
+]
+[air-light] [@roots/bud-terser/css-minimizer] › ✔  css-minimizer added to minimizers
+[air-light] [@roots/bud-terser] › ✔  terser added to minimizers [
+  CssMinimizerPlugin {
+    options: {
+      test: /\.css(\?.*)?$/i,
+      warningsFilter: [Function: warningsFilter],
+      parallel: true,
+      include: undefined,
+      exclude: undefined,
+      minimizer: [Object]
+    }
+  },
+  TerserPlugin {
+    options: {
+      test: /\.[cm]?js(\?.*)?$/i,
+      extractComments: false,
+      parallel: true,
+      include: undefined,
+      exclude: undefined,
+      minimizer: [Object]
+    }
+  }
+]
+[air-light] [@roots/bud-extensions/mini-css-extract-plugin] › ✔  produced webpack plugin
+[air-light] [@roots/bud-extensions/fix-style-only-entrypoints] › ✔  produced webpack plugin
+[air-light] [@roots/bud-extensions/clean-webpack-plugin] › ✔  produced webpack plugin
+[air-light] [@roots/bud-extensions/copy-webpack-plugin] › ✔  produced webpack plugin
+[air-light] [@roots/bud-extensions/webpack-manifest-plugin] › ✔  produced webpack plugin
+[air-light] [@roots/bud-entrypoints] › ✔  produced webpack plugin
+[air-light] [@roots/bud-stylelint] › ✔  produced webpack plugin
+[air-light] [@roots/bud-wordpress-theme-json] › ✔  produced webpack plugin
+[air-light] [@roots/bud-wordpress-dependencies] › ✔  produced webpack plugin
+[air-light] [@roots/bud-wordpress-externals] › ✔  produced webpack plugin
+[air-light] [@roots/bud-wordpress-manifests] › ✔  produced webpack plugin
+[air-light] [build] › ✔  built bail
+[air-light] [build] › ✔  built cache
+[air-light] [build] › ✔  built context
+[air-light] [build] › ✔  built dependencies
+[air-light] [build] › ✔  built devtool
+[air-light] [build] › ✔  built entry
+[air-light] [build] › ✔  built externalsType
+[air-light] [build] › ✔  built infrastructureLogging
+[air-light] [build] › ✔  built mode
+[air-light] [build] › ✔  built module
+[air-light] [build] › ✔  built name
+[air-light] [build] › ✔  built node
+[air-light] [build] › ✔  built optimization
+[air-light] [build] › ✔  built output
+[air-light] [build] › ✔  built parallelism
+[air-light] [build] › ✔  built performance
+[air-light] [build] › ✔  built recordsPath
+[air-light] [build] › ✔  built resolveLoader
+[air-light] [build] › ✔  built snapshot
+[air-light] [build] › ✔  built stats
+[air-light] [build] › ✔  built target
+[air-light] [build] › ✔  built plugins
+[air-light] [build] › ✔  built resolve
+[air-light] [build] › ✔  configuration successfully built
+[air-light] [hooks] › ▶  build.after Initialized timer...
+[air-light] [hooks] › …  executing callback 1/2
+[air-light] › ℹ  --debug not `true`. skipping fs write.
+[air-light] [hooks] › …  executing callback 2/2
+[air-light] [hooks] › ✔  executing callback 1/2
+[air-light] [hooks] › ✔  executing callback 2/2
+[air-light] [hooks] › ◼  build.after Timer run for: 2ms
+[air-light] [compiler] › ◼  initialize Timer run for: 1.26s
+[air-light] [compiler] › …  compilation
+[webpack] › [webpack.cache.PackFileCacheStrategy] restore cache container: 107.077611 ms
+[webpack] › [webpack.cache.PackFileCacheStrategy] Restored pack from /home/roni/.cache/bud-nodejs/6D+g05ISHfRrD6ZNLLJDYv4ZKow=/air-light/cache/webpack/production.pack, but version doesn't match.
+[webpack] › [IdleFileCachePlugin] Initial cache was generated and cache will be persisted in 0s.
+[webpack] › [webpack.cache.PackFileCacheStrategy] Pack got invalid because of write to: ResolverCachePlugin|normal|default|dependencyType=|esm|path=|/home/roni/Desktop/air-light/src|request=|@src/styles/global.scss
+[webpack] › [webpack.cache.PackFileCacheStrategy] Storing pack...
+[webpack] › [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Node.js doesn't offer a (nice) way to introspect the ESM dependency graph yet.
+Until a full solution is available webpack uses an experimental ESM tracking based on parsing.
+As best effort webpack parses the ESM files to guess dependencies. But this can lead to expensive and incorrect tracking.
+
+╭─ air-light ./dist [dacc73e9fafd5b296fd9]
+│
+├─ entrypoints
+│  ├─ app
+│  │  ├─ css/app.css      67.02 kB
+│  │  └─ js/app.js        19.75 kB
+│  ├─ editor
+│  │  ├─ css/editor.css   64.23 kB
+│  │  └─ js/editor.js    223 bytes
+│  └─ legacy
+│     └─ js/legacy.js    226.67 kB
+│
+├─ assets
+│  ├─ fonts/inter-variablefont.ttf  803.38 kB
+│  ├─ fonts/inter-400-italic.ttf    400.16 kB
+│  ├─ fonts/inter-700.ttf           399.81 kB
+│  ├─ fonts/inter-600.ttf           399.68 kB
+│  └─ fonts/inter-500.ttf           399.34 kB
+│
+│ … 1 additional asset(s) not shown
+│
+╰─ compiled 290 modules (6 cached) in 7s 988ms
+
+[air-light] [hooks] › ▶  compiler.close Initialized timer...
+[air-light] [hooks] › …  executing callback 1/2
+[air-light] [hooks] › …  executing callback 2/2
+[air-light] [hooks] › ✔  executing callback 1/2
+[fs] › ▶  writing new checksums Initialized timer...
+[fs] › ◼  writing new checksums Timer run for: 5ms
+[air-light] [hooks] › ✔  executing callback 2/2
+[air-light] [hooks] › ◼  compiler.close Timer run for: 22ms
+[webpack] › [webpack.cache.PackFileCacheStrategy] resolve build dependencies: 1094.632442 ms
+[webpack] › [webpack.cache.PackFileCacheStrategy] snapshot build dependencies: 35.416593 ms
+[webpack] › [webpack.cache.PackFileCacheStrategy] 1027 fresh items in cache put into pack 0
+[webpack] › [webpack.cache.PackFileCacheStrategy] store pack: 194.408401 ms
+[webpack] › [webpack.cache.PackFileCacheStrategy] Stored pack (1027 items, 1 files, 13 MiB)
+Done in 12.29s.

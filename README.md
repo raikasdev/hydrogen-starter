@@ -1,86 +1,66 @@
-## Air-light+ - A minimalist WordPress starter theme
+# Hydrogen Starter - A minimalist WordPress starter theme
 
-[![GitHub release](https://img.shields.io/github/tag/digitoimistodude/air-light.svg?style=flat-square)](https://github.com/digitoimistodude/air-light/releases) ![GitHub contributors](https://img.shields.io/github/contributors/digitoimistodude/air-light.svg?style=flat-square) [![Build Status for HTML](https://github.com/digitoimistodude/air-light/actions/workflows/html.yml/badge.svg)](https://github.com/digitoimistodude/air-light/actions/workflows/html.yml) [![Build Status for JS](https://github.com/digitoimistodude/air-light/actions/workflows/js.yml/badge.svg)](https://github.com/digitoimistodude/air-light/actions/workflows/js.yml)  [![Build Status for CSS](https://github.com/digitoimistodude/air-light/actions/workflows/styles.yml/badge.svg)](https://github.com/digitoimistodude/air-light/actions/workflows/styles.yml) [![Build Status for PHP](https://github.com/digitoimistodude/air-light/actions/workflows/php.yml/badge.svg)](https://github.com/digitoimistodude/air-light/actions/workflows/php.yml)
+Hydrogen Starter is the starter theme of the small digital WordPress agency [Mikroni](https://mikroni.fi), based on [Air-light](https://github.com/digitoimistodude/air-light).
 
-Air-light+ is a fork of Air-light, that doesn't include demo content, and uses Bud instead of Gulp.
- 
-Air-light (or simply *Air*) is designed to be an ultra minimal starting point for a WordPress project at [Digitoimisto Dude Oy](https://www.dude.fi), a Finnish boutique digital agency in the center of Jyväskylä. Theme is originally based on [\_s](https://github.com/automattic/_s). We welcome all happy contributors with open arms! [See roadmap](https://favro.com/organization/3b45e73eaf083f68fefef368/c1dd2d4a99d6723904d2e763).
+This starter theme is **opinionated** and **probably won't suit your needs**. It has been customized for my preferences, but you are free to use it if you want to.
 
-## [Demo](https://airwptheme.com/demo) | [Documentation](https://github.com/digitoimistodude/air-light/wiki)
+You can also take a look on [Air-light](https://github.com/digitoimistodude/air-light) and [Sage](https://roots.io/sage/) if you need something more extended.
 
-* **CSS gzipped:** 16.8 KB *(originally 124.4 KB)*
-* **JS gzipped:** 8.6 KB *(28.6 KB original)*
-* **Front page HTML**: 7.4 KB *(29.4 KB original)*
+## Changes
 
-![air-light-readme-mockup-latest](https://user-images.githubusercontent.com/1534150/170326942-b7404051-7621-4df3-9294-0ccd5e6f59a7.png)
-
-## Weekly updates!
-
-This theme is constantly kept up to date by a bunch of [awesome contributors](https://github.com/digitoimistodude/air-light/graphs/contributors). Wanna join in development? Read [the instructions for contributing](#contributing) and let us know about your first PR!
-
-![Alt](https://repobeats.axiom.co/api/embed/bd95f5747b41d3cf662e033044af08dee9a15f9f.svg "Repobeats analytics image")
-
-### Mission & vision
-
-Air-light is built to be very straightforward, backwards compatible, front-end developer friendly and modular by its structure. Following [Underscores](https://github.com/automattic/_s) and [WordPress Theme Coding Standards](https://codex.wordpress.org/Theme_Development#Theme_Development_Standards) best practices and most of the changes in \_s are implemented as soon as they are committed.
-
-**Our mission and goal** is **minimalism** and **simplicity**. **Our vision** is to build a theme that will not implement its own wrappers or functions, will not use any templating languages that would take things further from traditional PHP or CSS, will contain nothing that people will not use or need. Air-light will be free of weird "app-like" folder structures or odd syntaxes that nobody else uses. We love WordPress as it was and as it is.
-
-Air was renamed to air-light in version 3.7.8 (March 20th, 2018), because *air* was already taken in the official WordPress theme directory.
-
-### Official, approved, accessibility-ready!
-
-Air-light v. 4.2.2 was approved to [official WordPress theme directory](https://wordpress.org/themes/air-light/) on June 4, 2018. But please note, all changes you do to the theme without generating your own or changing textdomain will be overridden in theme updates - so if you use this theme as a starting point, please follow instructions and/or replace the textdomain with your own.
+- Gulp -> Bud
+  - theme.json!
+  - Hot Module Replacement
+    - Bud supports Webpack modules, so using Browsersync should also work with some tweaking
+  - One configuration file for dev and prod environments
+- NPM -> Yarn (lockfiles shouldn't be ignored!)
 
 ## Table of contents
 
-- [Air-light+ - A minimalist WordPress starter theme](#air-light---a-minimalist-wordpress-starter-theme)
-- [Demo | Documentation](#demo--documentation)
-- [Weekly updates!](#weekly-updates)
-  - [Mission \& vision](#mission--vision)
-  - [Official, approved, accessibility-ready!](#official-approved-accessibility-ready)
-- [Table of contents](#table-of-contents)
-  - [Please note before using](#please-note-before-using)
-  - [License](#license)
-- [Theme structure](#theme-structure)
-  - [Features](#features)
-    - [Layout base \& grid](#layout-base--grid)
-    - [Typography](#typography)
-    - [Development](#development)
-    - [Navigation](#navigation)
-    - [WordPress \& functions](#wordpress--functions)
-    - [Custom Post Types](#custom-post-types)
-    - [Custom Taxonomies](#custom-taxonomies)
-  - [Namespaced PHP](#namespaced-php)
-    - [Accessibility](#accessibility)
-    - [Lazy load](#lazy-load)
-    - [Disabled features](#disabled-features)
-  - [Javascript](#javascript)
-    - [Structure](#structure)
-    - [Legacy support](#legacy-support)
-    - [Linter](#linter)
-  - [Extra building blocks](#extra-building-blocks)
-    - [Sticky navigation](#sticky-navigation)
-      - [How to enable](#how-to-enable)
-    - [WooCommerce support](#woocommerce-support)
-      - [How to enable](#how-to-enable-1)
-  - [Requirements](#requirements)
-  - [Recommendations for development](#recommendations-for-development)
-  - [How to build a new theme](#how-to-build-a-new-theme)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Air development](#air-development)
-    - [Installation](#installation)
-      - [1. Use dudestack](#1-use-dudestack)
-      - [2. Use your own stack](#2-use-your-own-stack)
-      - [Content and unit tests](#content-and-unit-tests)
-  - [Debuggers](#debuggers)
-    - [For gulp](#for-gulp)
-    - [How to install for Gulp](#how-to-install-for-gulp)
-    - [For your editor](#for-your-editor)
-  - [Releasing a new version (staff only)](#releasing-a-new-version-staff-only)
-  - [Notes](#notes)
-  - [Known issues](#known-issues)
+- [Hydrogen Starter - A minimalist WordPress starter theme](#hydrogen-starter---a-minimalist-wordpress-starter-theme)
+  - [Changes](#changes)
+  - [Table of contents](#table-of-contents)
+    - [Please note before using](#please-note-before-using)
+    - [License](#license)
+  - [Theme structure](#theme-structure)
+    - [Features](#features)
+      - [Layout base \& grid](#layout-base--grid)
+      - [Typography](#typography)
+      - [Development](#development)
+      - [Navigation](#navigation)
+      - [WordPress \& functions](#wordpress--functions)
+      - [Custom Post Types](#custom-post-types)
+      - [Custom Taxonomies](#custom-taxonomies)
+    - [Namespaced PHP](#namespaced-php)
+      - [Accessibility](#accessibility)
+      - [Lazy load](#lazy-load)
+      - [Disabled features](#disabled-features)
+    - [Javascript](#javascript)
+      - [Structure](#structure)
+      - [Legacy support](#legacy-support)
+      - [Linter](#linter)
+    - [Extra building blocks](#extra-building-blocks)
+      - [Sticky navigation](#sticky-navigation)
+        - [How to enable](#how-to-enable)
+      - [WooCommerce support](#woocommerce-support)
+        - [How to enable](#how-to-enable-1)
+    - [Requirements](#requirements)
+    - [Recommendations for development](#recommendations-for-development)
+    - [How to build a new theme](#how-to-build-a-new-theme)
+    - [Usage](#usage)
+    - [Contributing](#contributing)
+    - [Air development](#air-development)
+      - [Installation](#installation)
+        - [1. Use dudestack](#1-use-dudestack)
+        - [2. Use your own stack](#2-use-your-own-stack)
+        - [Content and unit tests](#content-and-unit-tests)
+    - [Debuggers](#debuggers)
+      - [For gulp](#for-gulp)
+      - [How to install for Gulp](#how-to-install-for-gulp)
+      - [For your editor](#for-your-editor)
+    - [Releasing a new version (staff only)](#releasing-a-new-version-staff-only)
+    - [Notes](#notes)
+    - [Known issues](#known-issues)
 
 ### Please note before using
 

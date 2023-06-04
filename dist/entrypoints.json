@@ -1,0 +1,26 @@
+{
+  "app": {
+    "css": [
+      "css/app.css"
+    ],
+    "js": [
+      "js/app.js"
+    ],
+    "dependencies": []
+  },
+  "editor": {
+    "css": [
+      "css/editor.css"
+    ],
+    "js": [
+      "js/editor.js"
+    ],
+    "dependencies": []
+  },
+  "legacy": {
+    "js": [
+      "js/legacy.js"
+    ],
+    "dependencies": []
+  }
+}
