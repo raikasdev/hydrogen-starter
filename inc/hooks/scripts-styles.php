@@ -43,6 +43,12 @@ function enqueue_theme_scripts() {
     filemtime( get_theme_file_path( 'dist/js/app.js' ) ),
     true
   );
+  wp_enqueue_script( 'runtime-script',
+    get_theme_file_uri( 'dist/js/runtime.js' ),
+    [],
+    filemtime( get_theme_file_path( 'dist/js/runtime.js' ) ),
+    true
+  );
 
   // Required comment-reply script
   if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

@@ -100,44 +100,13 @@ add_action( 'after_setup_theme', function() {
       // 'Your_Post_Type',
     ],
 
-    /**
-     * Gutenberg -related settings
-     */
-    // Register custom ACF Blocks
-    'acf_blocks' => [
-      // [
-      //   'name'           => 'block-file-slug',
-      //   'title'          => 'Block Visible Name',
-      //   // You can safely remove lines below if you find no use for them
-      //   'prevent_cache'  => false, // Defaults to false,
-      //   // Icon defaults to svg file inside svg/block-icons named after the block name,
-      //   // eg. svg/block-icons/block-file-slug.svg
-      //   //
-      //   // Icon setting defines the dashicon equivalent: https://developer.wordpress.org/resource/dashicons/#block-default
-      //   // 'icon'  => 'block-default',
-      // ],
-    ],
-
-    // Custom ACF block default settings
-    'acf_block_defaults' => [
-      'category'          => 'air-light',
-      'mode'              => 'auto',
-      'align'             => 'full',
-      'post_types'        => [
-        'page',
-      ],
-      'supports'  => [
-        'align'           => false,
-        'anchor'          => true,
-        'customClassName' => false,
-      ],
-      'render_callback'   => __NAMESPACE__ . '\render_acf_block',
-    ],
-
     // Restrict to only selected blocks
     // Set the value to 'all' to allow all blocks everywhere
    'allowed_blocks' => [
       'default' => [
+        'nuklear/hero',
+        'core/buttons',
+        'core/button'
       ],
       'post' => [
         'core/archives',
@@ -199,3 +168,4 @@ require get_theme_file_path( '/inc/template-tags.php' );
 // Run theme setup
 add_action( 'after_setup_theme', __NAMESPACE__ . '\theme_setup' );
 add_action( 'after_setup_theme', __NAMESPACE__ . '\build_theme_support' );
+

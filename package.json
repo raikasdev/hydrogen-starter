@@ -14,12 +14,12 @@
     "@ronilaukkarinen/stylelint-a11y": "^1.2.7",
     "@ronilaukkarinen/stylelint-declaration-strict-value": "^1.9.2",
     "@ronilaukkarinen/stylelint-value-no-unknown-custom-properties": "^4.0.1",
-    "@roots/bud": "^6.12.3",
-    "@roots/bud-postcss": "^6.12.3",
-    "@roots/bud-sass": "^6.12.3",
-    "@roots/bud-stylelint": "^6.12.3",
-    "@roots/bud-wordpress-manifests": "^6.12.3",
-    "@roots/bud-wordpress-theme-json": "^6.12.3",
+    "@roots/bud": "6.13.1",
+    "@roots/bud-preset-wordpress": "^6.13.1",
+    "@roots/bud-sass": "6.13.1",
+    "@roots/bud-wordpress-theme-json": "6.13.1",
+    "@wordpress/blocks": "^12.12.0",
+    "@wordpress/data": "^9.5.0",
     "autoprefixer": "^10.4.13",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^9.1.2",
@@ -63,6 +63,8 @@
     "vinyl-named": "^1.1.0"
   },
   "dependencies": {
+    "@roots/bud-preset-recommend": "^6.13.1",
+    "@wordpress/icons": "^9.26.0",
     "airbnb-browser-shims": "^3.3.0",
     "moveto": "^1.8.2",
     "reframe.js": "^4.0.0"

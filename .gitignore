@@ -13,3 +13,5 @@ package-lock.json
 html
 w3cErrors/
 .vscode
+dist
+yarn-error.log

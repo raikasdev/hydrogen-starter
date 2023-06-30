@@ -163,12 +163,12 @@
 }
 
 // stylelint-disable-next-line selector-attribute-quotes
-.wp-block[data-type^=acf] {
+.wp-block[data-type^=nuklear] {
   // Reset 28px gap that comes from wp-includes/css/dist/edit-post/classic.css
   margin-bottom: 0;
   margin-top: 0;
 
-  // Allow ACF blocks to be full width by default
+  // Allow Nuklear blocks to be full width by default
   max-width: 100%;
 }
 

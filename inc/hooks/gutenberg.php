@@ -70,6 +70,12 @@ function register_block_editor_assets() {
     filemtime( get_theme_file_path( 'dist/js/editor.js' ) ),
     'all'
   );
+  wp_enqueue_script( 'runtime-script',
+    get_theme_file_uri( 'dist/js/runtime.js' ),
+    [],
+    filemtime( get_theme_file_path( 'dist/js/runtime.js' ) ),
+    true
+  );
 
   // Enqueue optional editor only styles
   wp_enqueue_style(

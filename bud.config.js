@@ -1,17 +1,27 @@
-const postcssPlugins = ['calc', 'colormin', 'discard-empty', 'discard-unused', 'merge-longhand', 'merge-rules', 'minify-font-values', 'minify-gradients', 'normalize-positions', 'normalize-url', 'unique-selectors', 'zindex'];
-
-// We are not using Babel, we are using SWC! Super fast.
+const postcssPlugins = [
+  'import',
+  'nested',
+  'preset-env',
+  'calc',
+  'colormin',
+  'discard-empty',
+  'discard-unused',
+  'merge-longhand',
+  'merge-rules',
+  'minify-font-values',
+  'minify-gradients',
+  'normalize-positions',
+  'normalize-url',
+  'unique-selectors',
+  'zindex',
+];
 
 /** @param {import('@roots/bud').Bud} bud */
 export default async (bud) => {
   // PostCSS plugins
-  bud.postcss.setPlugins(
-    await Promise.all(
-      postcssPlugins.map(
-        async (plugin) => [plugin, await bud.module.resolve(`postcss-${plugin}`)],
-      ),
-    ),
-  );
+  bud.postcss.setPostcssOptions({
+    plugins: postcssPlugins.map((plugin) => `postcss-${plugin}`),
+  });
 
   // Configure entrypoints
   bud
@@ -26,7 +36,7 @@ export default async (bud) => {
   // Configure HMR
   bud
     .setUrl('http://localhost:3000')
-    .setProxyUrl('http://example.test')
+    .setProxyUrl('https://example.test')
     .watch(['@src']);
 
   // WP theme.json
@@ -46,7 +56,11 @@ export default async (bud) => {
     .set('settings.typography.customFontSize', false)
     .enable();
 
-  // 
-  //bud.sh(['yes']);
+  /** Don't forget to accept any module updates! */
+  if (import.meta.webpackHot) {
+    import.meta.webpackHot.accept(console.error);
+  }
 
+  //
+  //bud.sh(['yes']);
 };
