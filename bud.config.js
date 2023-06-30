@@ -55,12 +55,4 @@ export default async (bud) => {
     .set('settings.spacing.units', ['px', '%', 'em', 'rem', 'vw', 'vh'])
     .set('settings.typography.customFontSize', false)
     .enable();
-
-  /** Don't forget to accept any module updates! */
-  if (import.meta.webpackHot) {
-    import.meta.webpackHot.accept(console.error);
-  }
-
-  //
-  //bud.sh(['yes']);
 };
